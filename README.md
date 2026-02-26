@@ -88,7 +88,7 @@ Smooth hover effects.
 ## Installation & Setup ##
 
 ## Clone Repository:-
-git clone https://github.com/your-username/resume-score-analyzer.git
+git clone https://github.com/manojbarode/-Resume-Score-Analyzer-.git
 
 ## Install Dependencies
     npm install
