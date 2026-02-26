@@ -4,8 +4,6 @@ import "./Suggestions.css";
 function Suggestions({ score }) {
   let suggestions = [];
 
-  let Suggestions = [];
-
 if (score < 30) {
   suggestions = [
     "Add a professional summary at the top.",

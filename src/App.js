@@ -5,7 +5,7 @@ import ScoreCard from "./ScoreCard";
 import Suggestions from "./Suggestions";
 import { analyzeResume } from "./mockAnalysis";
 import "./App.css";
-import { toast, ToastContainer } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function App() {
