@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+## Resume Score Analyzer 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A frontend-only React application that allows users to upload a resume (PDF), performs a mocked resume analysis, and displays a resume score along with improvement suggestions.
 
-## Available Scripts
+## This project is built as part of a Frontend Intern Assessment. ##
 
-In the project directory, you can run:
+ 
+ ## Project Overview
+The Resume Score Analyzer evaluates a resume using simulated logic and provides:-
+PDF Resume Upload.
+Resume Score (0–100).
+Extracted Keywords (Mocked).
+Improvement Suggestions.  
 
-### `npm start`
+The project demonstrates frontend fundamentals such as:
+File handling and validation
+Component-based architecture
+Clean UI/UX
+Modular and readable code
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Application Flow
+User uploads a resume (PDF only).
+File validation is performed.
+Loader appears during analysis.
+Mocked logic generates:
+    Random score (0–100)
+    Hardcoded keywords
+Resume score and suggestions are displayed.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Features
+1. Resume Upload:-
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Only PDF files allowed.
+    Error message for invalid file types.
+    Success message for valid PDF upload.
+    Uploaded file name displayed.
+    Toast notifications for feedback.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2️. Mocked Keyword Extraction:-
 
-### `npm run eject`
+    Hardcoded keywords.
+    No real PDF parsing.
+    Clearly mentioned as mocked analysis.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3️. Resume Score:-
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Score between 0–100
+    Animated progress bar
+    Smooth transition effect
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4️. Suggestions:-
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    3–5 suggestions
+    Condition-based suggestions depending on score range.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##  UI/UX Highlights  ##
 
-### Code Splitting
+Gradient background.
+Card-based layout.
+Clean and centered design.
+Animated progress bar.
+Loading state.
+Responsive layout.
+Smooth hover effects.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Functionality
 
-### Analyzing the Bundle Size
+ React.
+ CSS / Bootstrap.
+ React Toastify.
+ Create React App.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Mock Analysis
+    
+    Keywords are simulated.
+    Score is randomly generated.
+    No backend or real parsing used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Installation & Setup ##
 
-### Deployment
+## Clone Repository:-
+git clone https://github.com/your-username/resume-score-analyzer.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Install Dependencies
+    npm install
 
-### `npm run build` fails to minify
+## Run On Server
+    npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## App will run at:
+
+    http://localhost:3000
+    Build Production
+    npm run build
+    Creates an optimized production build in the build folder.
+
+
+## Evaluation Criteria Covered
+
+    File handling & validation.
+    UX clarity & usability.
+    Modular component structure.
+    Code readability.
+    UI consistency.
+
+
+## Future Improvements
+
+    Only pdf allow.
+    Drag & Drop upload.
+    Circular animated score indicator.
+    mobile responsiveness.
+    Real-time upload progress tracking.
+
+
+
+## Author
+
+    Manoj Barode
+    Frontend Intern Assessment Project
