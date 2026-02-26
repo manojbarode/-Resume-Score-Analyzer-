@@ -105,6 +105,10 @@ git clone https://github.com/manojbarode/-Resume-Score-Analyzer-.git
     Creates an optimized production build in the build folder.
 
 
+##  Live link
+    Netlify app:- resume-score-analyzer.netlify.app    
+
+
 ## Evaluation Criteria Covered
 
     File handling & validation.
